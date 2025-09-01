@@ -1,0 +1,50 @@
+# Ignore Binaries, Intermediate, and Saved folders
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Ignore optional cached assets and Derived Data Cache (DDC)
+DerivedDataCache/
+
+# Ignore build outputs
+*.pdb
+*.exe
+*.dll
+*.app
+*.dylib
+*.icns
+
+# Ignore system-specific files
+*.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Ignore auto-generated project files
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+*.code-workspace
+.vscode/
+
+# Ignore generated config files (user-specific settings)
+Config/DefaultEditorPerProjectUserSettings.ini
+Config/DefaultEditor.ini
+Config/DefaultEditorLayout.ini
+Config/DefaultEngine.ini
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.bak
+
+# Ignore crash report files
+*.dmp
+
+# Ignore .gitignore itself if you prefer
+!.gitignore
+Saved/Logs/ModernRPGBUNDLEv6.log
+Saved/Telemetry/Telemetry.json
